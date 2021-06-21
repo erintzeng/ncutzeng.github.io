@@ -1,0 +1,25 @@
+body {
+  background-color: #FFFACD;
+  margin: 50px;
+
+  font-family: "Arial", sans-serif;
+}
+
+div {overflow-x: auto}
+div:hover {background-color: #FFE4B5}
+
+h2 {
+  color: #473C8B;
+  padding: 3px;
+}
+
+a:hover {color: red}
+::selector {
+  background-color: gray;
+  color: white;
+}
+
+#ocean {
+  height: 15px;
+  background-image: linear-gradient(to right, rgba(30,144,255,0.7), rgba(200,200,225,0.5), rgba(0,0,255,0.7));
+}
